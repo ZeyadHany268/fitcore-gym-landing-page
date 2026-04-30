@@ -284,3 +284,8 @@ html {
   align-items: center;
   gap: 30px;
 }
+.flex-10 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
