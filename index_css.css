@@ -258,6 +258,7 @@ a {
 
   form {
     width: 100% !important;
+    padding: 20px;
   }
 
   .form-group {
@@ -265,6 +266,9 @@ a {
   }
 
   .w-50 {
+    width: 100%;
+  }
+  .w-70 {
     width: 100%;
   }
 }
