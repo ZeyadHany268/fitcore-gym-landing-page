@@ -1,15 +1,9 @@
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-.clear {
-  clear: both;
-}
 
 .w-50 {
   width: 50%;
+}
+.w-80 {
+  width: 80%;
 }
 .w-70 {
   width: 70%;
@@ -51,14 +45,14 @@
 }
 .but1:hover,
 .but2:hover {
-  background-color:white;
-  color:  #333;
+  background-color: white;
+  color: #333;
   cursor: pointer;
   transition: 0.3s;
 }
 .b:hover {
-  background-color:#333;
-  color:  white;
+  background-color: #333;
+  color: white;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -96,14 +90,14 @@
   background-color: oklch(96.8% 0.007 247.896);
 }
 .bg-darkblue {
-  background-color: oklch(21% .034 264.665);;
+  background-color: oklch(21% 0.034 264.665);
 }
 
 .tx-color-wh {
   color: #fff;
 }
 .tx-color-gray400 {
-  color: oklch(70.7% .022 261.325);
+  color: oklch(70.7% 0.022 261.325);
 }
 
 .tx-size-60 {
@@ -134,13 +128,9 @@
 
 .card {
   width: 30%;
-  align-items: center;
   border-radius: 20px;
-  margin-right: 3.333%;
   padding: 32px 5px;
-  min-height: 230px;
 }
-
 
 .card-img {
   display: block;
@@ -171,7 +161,7 @@
 }
 
 .margin-left-5 {
-  margin-left:5%;
+  margin-left: 5%;
 }
 .margin-left-10 {
   margin-left: 10px;
@@ -238,7 +228,8 @@ li {
 
 a {
   text-decoration: none;
-  color: oklch(70.7% .022 261.325);}
+  color: oklch(70.7% 0.022 261.325);
+}
 
 .items-center {
   align-items: center;
@@ -259,7 +250,8 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* overflow: hidden; */
 }
 textarea {
   width: 100%;
@@ -273,19 +265,23 @@ html {
   scroll-behavior: smooth;
 }
 
-.m-w-100{
+.m-w-100 {
   max-width: 100%;
 }
-.more-benfits {
+/* .more-benfits {
   overflow: hidden;
-}
-.more-benfits {
+} */
+
+.flex {
   display: flex;
-  align-items: center;
-  gap: 30px;
+  justify-content: space-evenly;
 }
-.flex-10 {
+html{
+  margin: 0;
+}
+
+.box{
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;  /* أفقي */
+  align-items: center;      /* رأسي */
 }
