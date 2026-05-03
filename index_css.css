@@ -234,6 +234,9 @@ a {
 /* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
 
+  #hero .Intro {
+    text-align: center;
+  }
   .flex {
     flex-direction: column;
   }
